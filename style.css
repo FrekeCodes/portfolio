@@ -3,16 +3,22 @@
     padding: 0;
 }
 
-body {
-    background-color: #E7E7E3;
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
+
+body {
+    background-color: #EEC373;
+}
+
 
 .headerText {
     color: #000;
 }
 
 section {
-    height: 800px;
+    height: 100vh;
     width: 100%;
     display: flex;
 }
@@ -33,7 +39,7 @@ section {
 }
 
 .nameTitle {
-    font-family: big shoulders text;
+    font-family: poppins;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,4 +50,59 @@ section {
 
 .leftAlign {
     text-align: left;
+}
+
+.about {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #F4DFBA;
+}
+
+.imgContainer {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idImg {
+    height: 50vh;
+}
+
+.aboutMeTextContainer {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMeText {
+    padding-left: 160px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutMeTitle {
+    font-family: norican;
+    width: 100%;
+}
+
+.work {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #EEC373;
+}
+
+.contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #F4DFBA;
 }
