@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E7E7E3;
+}
+
+.headerText {
+    color: #000;
+}
+
+section {
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+
+.portfolioTitle {
+    font-family: norican;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 280px;
+
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.nameTitle {
+    font-family: big shoulders text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.leftAlign {
+    text-align: left;
+}
